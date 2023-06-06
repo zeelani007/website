@@ -1,0 +1,270 @@
+ .technologies-section-title h2 {
+     font-weight: 400;
+     font-size: 30px;
+     line-height: 46px;
+     color: #303134;
+     margin: 40px 0 20px;
+     text-align: center
+ }
+
+ .technologies-inner-wrapper {
+     padding: 0 70px 20px;
+     display: inline-block;
+     width: 100%;
+     position: relative
+ }
+
+ .technology-title {
+     width: 100px;
+     color: #01a8ef;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     height: 100%;
+     top: 0;
+     position: absolute;
+     font-size: 16px
+ }
+
+ .technology-logos {
+     width: 100%;
+     text-align: center
+ }
+
+ .single-technology:last-child {
+     border-bottom: none
+ }
+
+ .technology-logos img {
+     margin: 0 15px;
+     height: auto;
+     vertical-align: middle;
+     transition: all 0.2s;
+     
+ }
+
+
+
+ img.tech-java {
+     width: 72px
+ }
+
+ img.tech-javascript {
+     width: 130px
+ }
+
+ img.tech-react {
+     width: 90px
+ }
+
+ img.tech-angularjs {
+     width: 140px
+ }
+
+ img.tech-vue-js {
+     width: 102px
+ }
+
+ img.tech-solidity {
+     width: 114px
+ }
+
+ img.tech-node-js {
+     width: 125px
+ }
+
+ img.tech-golang {
+     width: 114px
+ }
+
+ img.tech-kotlin {
+     width: 95px
+ }
+
+ img.tech-swift {
+     width: 106px
+ }
+
+ img.tech-react-nativ {
+     width: 142px
+ }
+
+ img.tech-php {
+     width: 58px
+ }
+
+ img.tech-css3 {
+     width: 85px
+ }
+
+ img.tech-html5 {
+     width: 108px
+ }
+
+ img.tech-wordpress {
+     width: 156px
+ }
+
+ img.tech-cake-php {
+     width: 126px
+ }
+
+ img.tech-laravel {
+     width: 121px
+ }
+
+ img.tech-codeigniter {
+     width: 145px
+ }
+
+ img.tech-ethereum {
+     width: 121px
+ }
+
+ img.tech-hyperledger {
+     width: 175px
+ }
+
+ img.tech-magento {
+     width: 135px
+ }
+
+ img.tech-woocommerce {
+     width: 150px
+ }
+
+ img.tech-shopify {
+     width: 122px
+ }
+
+ img.tech-big-commerce {
+     width: 162px
+ }
+
+ img.tech-mysql {
+     width: 86px
+ }
+
+ img.tech-amazonaurora {
+     width: 199px
+ }
+
+ img.tech-postgresql {
+     width: 170px
+ }
+
+ img.tech-mongodb {
+     width: 137px
+ }
+
+ img.tech-amazondynamodb {
+     width: 82px
+ }
+
+ img.tech-cassandra {
+     width: 162px
+ }
+
+ img.tech-amazon-redshift {
+     width: 91px
+ }
+
+ img.tech-google-bigquery {
+     width: 96px
+ }
+
+ img.tech-elasticsearch {
+     width: 187px
+ }
+
+ img.tech-algolia {
+     width: 117px
+ }
+
+ img.tech-cloud-firestore {
+     width: 190px
+ }
+
+ img.tech-firebase {
+     width: 113px
+ }
+
+ .technology-logo {
+     height: auto;
+     margin: 10px 0;
+     display: inline-block;
+     align-items: center;
+     justify-content: center
+ }
+
+ .technologies-label-wrapper {
+     text-align: center;
+     padding: 25px 0;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap
+ }
+
+ a.technologies_link {
+     color: #aeb7c0;
+     font-size: 18px;
+     margin: 0 30px;
+     width: auto;
+     position: relative
+ }
+
+ a.technologies_link:hover,
+ a.technologies_link.active {
+     color: #101560
+ }
+
+ .technologies-section {
+     display: inline-block;
+     width: 100%;
+     padding: 50px 0px;
+     position: relative;
+     background: #f2f6fd
+ }
+
+ .technologies-section .container {
+     position: relative;
+     z-index: 9
+ }
+
+ .bottom-sec-part .container {
+     position: relative;
+     z-index: 9
+ }
+
+ a.technologies_link:after {
+     content: '';
+     width: 75px;
+     height: 3px;
+     background: transparent;
+     display: inline-block;
+     position: absolute;
+     bottom: -15px;
+     left: calc(50% - 34px)
+ }
+
+ a.technologies_link.active:after,
+ a.technologies_link:hover:after {
+     background: #101560
+ }
+
+ @media only screen and (max-width:991.98px) {
+     .technologies-inner-wrapper {
+         padding: 0 0px 20px
+     }
+     a.technologies_link {
+         font-size: 16px;
+         margin: 0px;
+         width: 33%;
+         position: relative;
+         position: 0px 10px
+     }
+ }
+
+ 

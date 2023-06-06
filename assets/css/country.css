@@ -1,0 +1,10 @@
+argin-right: 10px;
+    min-height: auto;
+    display: flex;
+    align-items: center;
+    width: 85px;
+    height: 85px;
+    justify-content: center;
+    background: #0052bc;
+    padding: 5px;
+    border-radius: 6px;
